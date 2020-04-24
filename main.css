@@ -1,3 +1,19 @@
 body{
     background-color: antiquewhite;
 }
+#description{
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.design{
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: darkslategrey;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    resize: vertical;
+}
