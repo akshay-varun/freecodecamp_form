@@ -1,19 +1,40 @@
 body{
     background-color: antiquewhite;
 }
+#survey-form{
+    font-size: 25px;
+    font-weight: inherit;
+    color: honeydew;
+}
 #description{
-    text-align: justify;
-    margin: 0 auto;
-    max-width: 800px;
+  text-align: center;
+    color: brown;
+}
+#description h3{
+    font-weight: normal;
 }
 .design{
     text-align: justify;
     margin: 0 auto;
     max-width: 600px;
     background-color: darkslategrey;
-    padding: 12px;
+    padding: 50px;
     border: 1px solid #ccc;
-    border-radius: 8px;
     box-sizing: border-box;
-    resize: vertical;
+}
+input[type=text],input[type=email],input[type=number],#dropdown,#dropdown2{
+    width:100%;
+    padding: 10px 2px;
+    border-radius: 10px;
+
+}
+input[type=submit]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
